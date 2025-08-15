@@ -25,8 +25,8 @@ This project aims to predict blueberry yield using supervised regression techniq
 
 ##  Dataset  
 - Data contains agronomic and environmental features related to blueberry cultivation.  
-- Used features such as plant traits, bee diversity, soil, climate metrics to model yield.  
-*(Feel free to add a line or two about train/test data size or source if you summarised it in your notebook.)*
+- Used features such as plant traits, bee diversity, soil, climate metrics(10 columns) to model yield.  
+
 
 ---
 
@@ -35,14 +35,13 @@ This project aims to predict blueberry yield using supervised regression techniq
 2. **Feature Engineering:** Created new features and handled data preprocessing.  
 3. **Model Training:** Compared multiple regression algorithms (e.g., Linear Regression, Random Forest, XGBoost).  
 4. **Cross-Validation & Hyperparameter Tuning:** Used CV to optimize model performance.  
-5. **Evaluation:** Reported metrics like MAE, RMSE for model comparison.
+5. **Evaluation:** Reported metrics like MAE for model comparison.
 
 ---
 
 ##  Modeling  
 - Evaluated and compared model performance side by side.  
 - Selected the best-performing regression model based on validation scores.  
-- **Insert final model choice here**, e.g., LightGBM with tuning parameters.
 
 ---
 
